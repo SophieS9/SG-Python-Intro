@@ -26,5 +26,5 @@ There are some great free online resources available to help you learn Python (a
 
 If you're willing to spend a little money there are also several good text books available, most of which come with downloadable or online content. And example of some include:
 
-* [Python for Biologists](http://pythonforbiologists.com/). 
+* [Python for Biologists](http://pythonforbiologists.com/). Excerpts of the text are available online for free.  
 * [Learn Python the Hard Way](https://learnpythonthehardway.org/). You can try this one out for free before purchasing.  
