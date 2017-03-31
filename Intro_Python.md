@@ -21,4 +21,10 @@ When many researchers decide to start learning programming, their language of ch
 
 There are some great free online resources available to help you learn Python (and many other languages). Two of my favourites are:
 
-* [Codecademy](https://www.codecademy.com/learn/python). This has a Python tutorial as well as tutorials in other languages with a focus upon website. There are free accounts or paid-for accounts with added functionality. 
+* [Codecademy](https://www.codecademy.com/learn/python). This has a Python tutorial as well as tutorials in other languages with a focus upon website design. There are free accounts or paid-for accounts with added functionality. 
+* [HackerRank](https://www.hackerrank.com/). This has tutorials in many different languages as well as coding competitions. It's used by companies to head hunt the best new developers.
+
+If you're willing to spend a little money there are also several good text books available, most of which come with downloadable or online content. And example of some include:
+
+* [Python for Biologists](http://pythonforbiologists.com/). 
+* [Learn Python the Hard Way](https://learnpythonthehardway.org/). You can try this one out for free before purchasing.  
