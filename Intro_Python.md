@@ -46,6 +46,24 @@ If possible when installing, you should install python 3 as this is the most up-
 ## So Let's Get Started!
 
 In this tutorial, I'm going to introduce a few basic concepts to get you started with pythons. These are:
+1. [Variables - what they are and how to declare them](#1.)
+2. [Math - using python to do some simple equations](#2.)
+3. [Strings - and the cool stuff you can do with them](#3.)
+4. [Lists - lists of variables](#4.)
+5. [Loops - doing the same thing lots of times](#5.)
+6. [Syntax - tabs, line breaks, comments](#6.)
+
+### 1. Variables - what they are and how to declare them
+
+### 2. Math - using python to do some simple equations
+
+### 3. Strings - and the cool stuff you can do with them
+
+### 4. Lists - lists of variables
+
+### 5. Loops - doing the same thing lots of times
+
+### 6. Syntax - tabs, line breaks, comments
 
 ## How Can I Continue Learning Python?!
 
