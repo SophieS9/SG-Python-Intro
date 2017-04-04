@@ -45,7 +45,7 @@ If possible when installing, you should install python 3 as this is the most up-
  
 ## So Let's Get Started!
 
-In this tutorial, I'm going to introduce a few basic concepts to get you started with pythons. These are:
+In this tutorial, I'm going to introduce a few basic concepts to get you started with pythons. You might not get through all of these in an hour, but don't worry! These are:
 1. [Variables - what they are and how to declare them](#1.)
 2. [Math - using python to do some simple equations](#2.)
 3. [Strings - and the cool stuff you can do with them](#3.)
@@ -55,13 +55,30 @@ In this tutorial, I'm going to introduce a few basic concepts to get you started
 
 ### 1. Variables - what they are and how to declare them
 
+Variables are ways to store information in python. This information can be text (a.k.a a string), numbers or something with a much more complex structure (see [Lists](#5.) to get an idea). This information can then be caccessed by the script by using the variable name. Creating a variable is very simple. We have to give it a name. This should be unique, informative and, preferably in python, lower case. We then use an equals sign (=) to give it the information.
+
+We're now going to get started with writing our first python script. In this script we're going to declare a variable with the name "text" that holds the string "Hello World!". Then we're going to use the print function to print this variable in the console. In the Editor window on the left hand side of spyder, type the following:
+```
+text="Hello World!"
+
+print text
+```
+
+You can then run your script by clicking on the "Run" green arrow in the top bar:
+
+You'll notice that your console has now changed:
+
 ### 2. Math - using python to do some simple equations
 
 ### 3. Strings - and the cool stuff you can do with them
 
 ### 4. Lists - lists of variables
 
+Other data types
+
 ### 5. Loops - doing the same thing lots of times
+
+Conditional Statements
 
 ### 6. Syntax - tabs, line breaks, comments
 
