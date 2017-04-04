@@ -17,6 +17,13 @@ tags:
 
 When many researchers decide to start learning programming, their language of choice is often Python. This tutorial aims to introduce the Python language, show you what it can do, when you'll want to use it and introduce some basic concepts. This is just a starter and you WILL NOT be an expert within the next hour, but hopefully you'll know how to get started and how to go about learning more skills.
 
+## How Can I Use Python On My Computer?
+
+If you're using a Mac or Unix operating system, python is mostly likely already installed on your computer. To double check and find out which version you have, open up a terminal window and simple type:
+```
+python --version
+```
+
 ## How Can I Continue Learning Python?!
 
 There are some great free online resources available to help you learn Python (and many other languages). Two of my favourites are:
