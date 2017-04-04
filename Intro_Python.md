@@ -26,6 +26,16 @@ python --version
 
 If you're using Windows, you'll need to download software that allows you to run python. Today we're going to use [spyder](https://github.com/spyder-ide/spyder) as it has a nice graphical user interface (GUI), similar to RStudio. I would recommend the installation option via Anaconda. Mac and Unix users can also download this software if they'd prefer to use the GUI. 
 
+Once installed, launch spyder. On a Windows machine *DO THIS*. If you have installed with Anaconda on a Mac or Unix platform, you can launch spyder from the command line as follows:
+```
+spyder&
+```
+NOTE! The & sign at the end allows spyder to run in the background so you can still use your terminal window for other things. 
+
+A window that looks something like this should have opened:
+
+<img src="./Images/spyder_open.png">
+
 ### Python Version 2 vs. Python Version 3
 
 ## How Can I Continue Learning Python?!
