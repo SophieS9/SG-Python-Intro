@@ -43,6 +43,28 @@ A window that looks something like this should have opened:
 ### Python Version 2 vs. Python Version 3
 If possible when installing, you should install python 3 as this is the most up-to-date version. However some users may already have python 2 installed or prefer to use python 2. There are some functional differences between the two (see [here](https://wiki.python.org/moin/Python2orPython3) for more details) but today it shouldn't matter too much which version you have. I'll point out any differences during the tutorial. 
  
+## So Let's Get Started!
+
+In this tutorial, I'm going to introduce a few basic concepts to get you started with pythons. These are:
+1. [Variables - what they are and how to declare them](#1.)
+2. [Math - using python to do some simple equations](#2.)
+3. [Strings - and the cool stuff you can do with them](#3.)
+4. [Lists - lists of variables](#4.)
+5. [Loops - doing the same thing lots of times](#5.)
+6. [Syntax - tabs, line breaks, comments](#6.)
+
+### 1. Variables - what they are and how to declare them
+
+### 2. Math - using python to do some simple equations
+
+### 3. Strings - and the cool stuff you can do with them
+
+### 4. Lists - lists of variables
+
+### 5. Loops - doing the same thing lots of times
+
+### 6. Syntax - tabs, line breaks, comments
+
 ## How Can I Continue Learning Python?!
 
 There are some great free online resources available to help you learn Python (and many other languages). Two of my favourites are:
