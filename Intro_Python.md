@@ -41,7 +41,8 @@ A window that looks something like this should have opened:
 * The bottom right hand side is the Console. This is where yout script will run. 
 
 ### Python Version 2 vs. Python Version 3
-
+If possible when installing, you should install python 3 as this is the most up-to-date version. However some users may already have python 2 installed or prefer to use python 2. There are some functional differences between the two (see [here](https://wiki.python.org/moin/Python2orPython3) for more details) but today it shouldn't matter too much which version you have. I'll point out any differences during the tutorial. 
+ 
 ## How Can I Continue Learning Python?!
 
 There are some great free online resources available to help you learn Python (and many other languages). Two of my favourites are:
