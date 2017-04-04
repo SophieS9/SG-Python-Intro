@@ -36,6 +36,10 @@ A window that looks something like this should have opened:
 
 <img src="./Images/spyder_open.png">
 
+* The left hand side is your Script editor. Here you can write and edit your python code, and when it's ready, send it to the Console to run. You can save your scripts so that you can come back to them at a later date to re-run them or to send them to other researchers. 
+* The top right hand side is the Object inspector. This contains all of the objects you have created. We'll get to this a little later.
+* The bottom right hand side is the Console. This is where yout script will run. 
+
 ### Python Version 2 vs. Python Version 3
 
 ## How Can I Continue Learning Python?!
