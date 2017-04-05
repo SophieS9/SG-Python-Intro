@@ -52,16 +52,16 @@ If possible when installing, you should install python 3 as this is the most up-
 ## So Let's Get Started!
 
 In this tutorial, I'm going to introduce a few basic concepts to get you started with pythons. You might not get through all of these in an hour, but don't worry! These are:
-1. [Variables - what they are and how to declare them](#1.)
-2. [Math - using python to do some simple equations](#2.)
-3. [Strings - and the cool stuff you can do with them](#3.)
-4. [Lists - lists of variables](#4.)
-5. [Loops - doing the same thing lots of times](#5.)
-6. [Syntax - tabs, line breaks, comments](#6.)
+1. Variables - what they are and how to declare them
+2. Math - using python to do some simple equations
+3. Strings - and the cool stuff you can do with them
+4. Lists - lists of variables
+5. Loops - doing the same thing lots of times
+6. Syntax - tabs, line breaks, comments]
 
 ### 1. Variables - what they are and how to declare them
 
-Variables are ways to store information in python. This information can be text (a.k.a a string), numbers or something with a much more complex structure (see [Lists](#5.) to get an idea). This information can then be caccessed by the script by using the variable name. Creating a variable is very simple. We have to give it a name. This should be unique, informative and, preferably in python, lower case. We then use an equals sign (=) to give it the information.
+Variables are ways to store information in python. This information can be text (a.k.a a string), numbers or something with a much more complex structure (see Lists to get an idea). This information can then be accessed by the script by using the variable name. Creating a variable is very simple. We have to give it a name. This should be unique, informative and, preferably in python, lower case. We then use an equals sign (=) to give it the information.
 
 We're now going to get started with writing our first python script. In this script we're going to declare a variable with the name "text" that holds the string "Hello World!". Then we're going to use the print function to print this variable in the console. In the Editor window on the left hand side of spyder, type the following:
 ```
@@ -79,7 +79,22 @@ You'll notice that your console has now changed:
 <p align=center>
 <img src="./Images/variable_out.png"/>
 </p>
-The text has been printed in the console. 
+The text has been printed in the console. Throughout the tutorial this is going to be the pattern we follow. Edit the script, run in the console, look at what is printed to the console. 
+
+Now we've made our first variable, go back to your script and edit it as follows:
+```
+text="Hello World!"
+integer = 1
+float = 2.35
+
+print text
+print integer
+print float
+```
+
+Here I've introduced two new variable types - integers (whole numbers) and floats (decimal numbers). 
+
+Run your script and look at the changes in the console. 
 
 ### 2. Math - using python to do some simple equations
 
