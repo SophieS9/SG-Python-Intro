@@ -34,13 +34,13 @@ NOTE! The & sign at the end allows spyder to run in the background so you can st
 
 A window that looks something like this should have opened:
 
-<img src="./Images/spyder_open.png">
+<img src="./Images/spyder_open.png"/>
 
 * The left hand side is your Script editor. Here you can write and edit your python code, and when it's ready, send it to the Console to run. You can save your scripts so that you can come back to them at a later date to re-run them or to send them to other researchers. 
-* The top right hand window has three tabs - Object inspector (This contains all of the objects you have created), Variable explorer (This contains all of the variables you have created) and File explorer (this shows all of the files in your current working directory). Today, you're going to want to viewing the Variable explorer tab. I'll explain more about this a little later.
-<img src="./Images/variable_explorer.png">
-* The bottom right hand side is the Console. This is where yout script will run. There are three tabs to this window, two console types (Console and IPython Console) and the history tab. We're going to want to have the Console tab open. 
-<img src="./Images/console.png">
+* The top right hand window has three tabs - Object inspector (This contains all of the objects you have created), Variable explorer (This contains all of the variables you have created) and File explorer (this shows all of the files in your current working directory). Today, you're going to want to viewing the Variable explorer tab. I'll explain more about this a little later. Your tab bar will look like this:
+<img src="./Images/variable_explorer.png" style="align: center"/>
+* The bottom right hand side is the Console. This is where yout script will run. There are three tabs to this window, two console types (Console and IPython Console) and the history tab. We're going to want to have the Console tab open. It should look like this:
+<img src="./Images/console.png" style="align: center"/>
 
 ### Python Version 2 vs. Python Version 3
 If possible when installing, you should install python 3 as this is the most up-to-date version. However some users may already have python 2 installed or prefer to use python 2. There are some functional differences between the two (see [here](https://wiki.python.org/moin/Python2orPython3) for more details) but today it shouldn't matter too much which version you have. I'll point out any differences during the tutorial. 
