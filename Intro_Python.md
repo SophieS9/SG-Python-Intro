@@ -71,8 +71,15 @@ print text
 ```
 
 You can then run your script by clicking on the "Run" green arrow in the top bar:
+<p align=center>
+<img src="./Images/run_arrow.png"/>
+</p>
 
 You'll notice that your console has now changed:
+<p align=center>
+<img src="./Images/variable_out.png"/>
+</p>
+The text has been printed in the console. 
 
 ### 2. Math - using python to do some simple equations
 
