@@ -65,7 +65,7 @@ Variables are ways to store information in python. This information can be text 
 
 We're now going to get started with writing our first python script. In this script we're going to declare a variable with the name "text" that holds the string "Hello World!". Then we're going to use the print function to print this variable in the console. In the Editor window on the left hand side of spyder, type the following:
 ```
-text="Hello World!"
+text = "Hello World!"
 
 print text
 ```
@@ -75,6 +75,8 @@ You can then run your script by clicking on the "Run" green arrow in the top bar
 <img src="./Images/run_arrow.png"/>
 </p>
 
+When you run a script for the first time you'll be asked to save it. Choose an appropriate name and location and save the file. 
+
 You'll notice that your console has now changed:
 <p align=center>
 <img src="./Images/variable_out.png"/>
@@ -83,7 +85,7 @@ The text has been printed in the console. Throughout the tutorial this is going 
 
 Now we've made our first variable, go back to your script and edit it as follows:
 ```
-text="Hello World!"
+text = "Hello World!"
 integer = 1
 float = 2.35
 
@@ -96,7 +98,44 @@ Here I've introduced two new variable types - integers (whole numbers) and float
 
 Run your script and look at the changes in the console. 
 
+Within your script you can declare as many variables as you like as long as the name is unique. Now we'll take a look at some of the things you can do with these variables.
+
 ### 2. Math - using python to do some simple equations
+
+For this section you can either edit your existing script or open a new one. Type the following:
+```
+x = 5
+y = 6
+
+print x + y
+``` 
+Run the script (you'll need to save it first) and look at the changes in the console. The result of adding 5 and 6 has been printed.
+
+Alternatively you could have done the following:
+```
+x = 5
+y = 6
+z = x + y
+
+print z
+```
+
+As well as addition, you can do subtraction, multiplication, division, raise a number by a power (**) and obtain the modulo (%) (the remainder when dividing by a number). Have a go at the example. Change the numbers to whatever you like:
+```
+x = 5
+y = 6
+
+print x + y
+print x - y
+print x * y
+print x / y
+print x ** y
+print x % y
+```
+
+Floating Points
+
+Different types of variables and Error messages
 
 ### 3. Strings - and the cool stuff you can do with them
 
