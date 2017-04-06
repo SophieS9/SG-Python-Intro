@@ -133,7 +133,15 @@ print x ** y
 print x % y
 ```
 
-Floating Points
+If you're using Python version 2, you might have noticed something unusual with the results above. When you divide 5/6 the result is printed as 0 when we all know that the result should be 0.833333. This is because division of integers in Python 2 is automatically rounded.
+
+To fix this, add the following to the top of your script
+```
+from __future__ import division
+``` 
+This imports the "division" function from the future module which corrects division to "floating point" in Python 2. This is automatically implemented in Python 3. 
+
+NOTE! Python (and other programming languages) have limitions when using arithmetic functions on floating point (decimal) numbers. This is because of the way numbers are stored in binary, they are always just the closest estimation to the floating point. This post [HERE](https://docs.python.org/3/tutorial/floatingpoint.html) explains this a lot better although it does talk about binary! It's nothing to worry about today but it's something that you should be aware of. 
 
 Different types of variables and Error messages
 
