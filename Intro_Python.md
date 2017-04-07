@@ -83,6 +83,8 @@ You'll notice that your console has now changed:
 </p>
 The text has been printed in the console. Throughout the tutorial this is going to be the pattern we follow. Edit the script, run in the console, look at what is printed to the console. 
 
+ADD SOMETHING HERE ABOUT VARIABLE EXPLORER
+
 Now we've made our first variable, go back to your script and edit it as follows:
 ```
 text = "Hello World!"
@@ -210,11 +212,23 @@ print shoppinglist
 ```
 
 Python can also be used to pull out specific characters from a string, using indexing. Every character in a string is given a number, starting from 0 to n-1 where n is the length of the string. Here are the indexes for the string "Hello World!"
-<p align=center>
+
 | H | e | l | l | o |   | W | o | r | l | d | ! | 
 | - | - | - | - | - | - | - | - | - | - | - | - |
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 
-</p>
+
+We use the variable name followed by square brackets with the index to be able to access certain characters in a string. So text[0] would get the first character, text[1] would get the second character etc... Have a go at the example below and work out what the indexes [2:4] and [-1] are doing:
+```
+text = "Hello World!"
+
+print text
+print text[0]
+print text[1]
+print text[2:4]
+print text[-1]
+```
+
+[2:4] accesses the third character to (but not including) the fifth character. [-1] access the final character in the string. Have a play with different numbers and try combining these options with some of the string functions introduced above, such as length and upper.  
 
 ### 4. Lists - lists of variables
 
