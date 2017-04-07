@@ -153,12 +153,31 @@ print x + y
 
 When doing this you should have seen an error that looks like this in the console:
 <p>
-<img src="../Images/adding_error.png"/>
+<img src="./Images/adding_error.png"/>
 </p>
 
 Error messages in Python are great for telling you what is wrong and where in the script the error has occurred. Here it is telling us that it is unable to add an integer (int) and a string (str) and that the error occurs on line 12 of the script. You should make yourself familiar with error messages. The more coding you learn, the more you will see them!
  
 ### 3. Strings - and the cool stuff you can do with them
+
+As well as being great at working with integers, Python also allows us to work with and manipulate strings. Let's go back to the first variable we declared:
+```
+text = "Hello World!"
+
+print text
+```
+
+Python has some built in functions that allow us to work with strings. This includes calculating the length of the string, changing the string to upper case or changing the string to lower case. The syntax (the correct way to write) each function is slightly different. The length function follows the syntax "len(VARIABLE)" whereas the lower and upper functions follow the syntax "VARIABLE.function()" See by running the example below:
+```
+text="Hello World!"
+
+print text
+print len(text)
+print text.upper()
+print text.lower()
+```
+
+There are other built in functions available as well including a function to capitalize the first letter or to swap the cases of all letter. 
 
 ### 4. Lists - lists of variables
 
