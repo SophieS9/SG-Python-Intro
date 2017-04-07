@@ -152,7 +152,7 @@ print x + y
 ```
 
 When doing this you should have seen an error that looks like this in the console:
-<p>
+<p align=center>
 <img src="./Images/adding_error.png"/>
 </p>
 
@@ -210,10 +210,11 @@ print shoppinglist
 ```
 
 Python can also be used to pull out specific characters from a string, using indexing. Every character in a string is given a number, starting from 0 to n-1 where n is the length of the string. Here are the indexes for the string "Hello World!"
-
+<p align=center>
 | H | e | l | l | o |   | W | o | r | l | d | ! | 
 | - | - | - | - | - | - | - | - | - | - | - | - |
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 
+</p>
 
 ### 4. Lists - lists of variables
 
