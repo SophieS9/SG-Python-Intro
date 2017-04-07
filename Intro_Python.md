@@ -169,7 +169,7 @@ print text
 
 Python has some built in functions that allow us to work with strings. This includes calculating the length of the string, changing the string to upper case or changing the string to lower case. The syntax (the correct way to write) each function is slightly different. The length function follows the syntax "len(VARIABLE)" whereas the lower and upper functions follow the syntax "VARIABLE.function()". See by running the example below:
 ```
-text="Hello World!"
+text = "Hello World!"
 
 print text
 print len(text)
@@ -181,8 +181,8 @@ There are other built in functions available as well including a function to cap
 
 As well as manuipulating strings, Python can be used to concatenate strings together, like in this example:
 ```
-fruit="Apples"
-vegetable="Potatoes"
+fruit = "Apples"
+vegetable = "Potatoes"
 
 shoppinglist = fruit + vegetable
 
@@ -191,25 +191,28 @@ print shoppinglist
 
 You should have noticed that the output above isn't formatted particularly nicely. I'd like my shopping list to have spaces in between the items. Therefore I can edit the script as follows, adding a space between the variables:
 ```
-fruit="Apples"
-vegetable="Potatoes"
+fruit = "Apples"
+vegetable = "Potatoes"
 
-shoppinglist= fruit + " " + vegetables
+shoppinglist = fruit + " " + vegetables
 
 print shoppinglist
 ```
 
 But what about if I wanted to add have each item of my shopping list on a new line? Well instead of adding a space, we can add a new line character - "\n". There are a series of special characters in programming that are used to specify different things such as new lines (\n), tabs (\t), spaces (\s) and so on. These are known as escape characters and also start with a back slash. 
 ```
-fruit="Apples"
-vegetable="Potatoes"
+fruit = "Apples"
+vegetable = "Potatoes"
 
-shoppinglist= fruit + "\n" + vegetables
+shoppinglist = fruit + "\n" + vegetables
 
 print shoppinglist
 ```
 
-Indexing
+Python can also be used to pull out specific characters from a string, using indexing. Every character in a string is given a number, starting from 0 to n-1 where n is the length of the string. Here are the indexes for the string "Hello World!"
+
+H e l l o   w o r l d ! 
+0 1 2 3 4 5 6 7 8 9 10 11 
 
 ### 4. Lists - lists of variables
 
