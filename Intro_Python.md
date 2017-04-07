@@ -53,7 +53,7 @@ If possible when installing, you should install python 3 as this is the most up-
 
 In this tutorial, I'm going to introduce a few basic concepts to get you started with pythons. You might not get through all of these in an hour, but don't worry! These are:
 1. Variables - what they are and how to declare them
-2. Math - using python to do some simple equations
+2. Arithmetic - using python to do some simple equations
 3. Strings - and the cool stuff you can do with them
 4. Lists - lists of variables
 5. Loops - doing the same thing lots of times
@@ -100,7 +100,7 @@ Run your script and look at the changes in the console.
 
 Within your script you can declare as many variables as you like as long as the name is unique. Now we'll take a look at some of the things you can do with these variables.
 
-### 2. Math - using python to do some simple equations
+### 2. Arithmetic - using python to do some simple equations
 
 For this section you can either edit your existing script or open a new one. Type the following:
 ```
@@ -143,8 +143,21 @@ This imports the "division" function from the future module which corrects divis
 
 NOTE! Python (and other programming languages) have limitions when using arithmetic functions on floating point (decimal) numbers. This is because of the way numbers are stored in binary, they are always just the closest estimation to the floating point. This post [HERE](https://docs.python.org/3/tutorial/floatingpoint.html) explains this a lot better although it does talk about binary! It's nothing to worry about today but it's something that you should be aware of. 
 
-Different types of variables and Error messages
+To be able to perfrom mathematical arithmetic on variables, they need to be of the same type. For instance, you can't add an integer and a string:
+```
+x = 5
+y = "Banana"
 
+print x + y
+```
+
+When doing this you should have seen an error that looks like this in the console:
+<p>
+<img src="../Images/adding_error.png"/>
+</p>
+
+Error messages in Python are great for telling you what is wrong and where in the script the error has occurred. Here it is telling us that it is unable to add an integer (int) and a string (str) and that the error occurs on line 12 of the script. You should make yourself familiar with error messages. The more coding you learn, the more you will see them!
+ 
 ### 3. Strings - and the cool stuff you can do with them
 
 ### 4. Lists - lists of variables
