@@ -211,9 +211,9 @@ print shoppinglist
 
 Python can also be used to pull out specific characters from a string, using indexing. Every character in a string is given a number, starting from 0 to n-1 where n is the length of the string. Here are the indexes for the string "Hello World!"
 
-H e l l o   w o r l d ! 
-
-0 1 2 3 4 5 6 7 8 9 10 11 
+| H | e | l | l | o |   | W | o | r | l | d | ! | 
+| - | - | - | - | - | - | - | - | - | - | - | - |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 
 
 ### 4. Lists - lists of variables
 
