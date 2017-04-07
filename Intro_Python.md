@@ -167,7 +167,7 @@ text = "Hello World!"
 print text
 ```
 
-Python has some built in functions that allow us to work with strings. This includes calculating the length of the string, changing the string to upper case or changing the string to lower case. The syntax (the correct way to write) each function is slightly different. The length function follows the syntax "len(VARIABLE)" whereas the lower and upper functions follow the syntax "VARIABLE.function()" See by running the example below:
+Python has some built in functions that allow us to work with strings. This includes calculating the length of the string, changing the string to upper case or changing the string to lower case. The syntax (the correct way to write) each function is slightly different. The length function follows the syntax "len(VARIABLE)" whereas the lower and upper functions follow the syntax "VARIABLE.function()". See by running the example below:
 ```
 text="Hello World!"
 
@@ -178,6 +178,38 @@ print text.lower()
 ```
 
 There are other built in functions available as well including a function to capitalize the first letter or to swap the cases of all letter. 
+
+As well as manuipulating strings, Python can be used to concatenate strings together, like in this example:
+```
+fruit="Apples"
+vegetable="Potatoes"
+
+shoppinglist = fruit + vegetable
+
+print shoppinglist
+```
+
+You should have noticed that the output above isn't formatted particularly nicely. I'd like my shopping list to have spaces in between the items. Therefore I can edit the script as follows, adding a space between the variables:
+```
+fruit="Apples"
+vegetable="Potatoes"
+
+shoppinglist= fruit + " " + vegetables
+
+print shoppinglist
+```
+
+But what about if I wanted to add have each item of my shopping list on a new line? Well instead of adding a space, we can add a new line character - "\n". There are a series of special characters in programming that are used to specify different things such as new lines (\n), tabs (\t), spaces (\s) and so on. These are known as escape characters and also start with a back slash. 
+```
+fruit="Apples"
+vegetable="Potatoes"
+
+shoppinglist= fruit + "\n" + vegetables
+
+print shoppinglist
+```
+
+Indexing
 
 ### 4. Lists - lists of variables
 
@@ -200,3 +232,5 @@ If you're willing to spend a little money there are also several good text books
 
 * [Python for Biologists](http://pythonforbiologists.com/). Excerpts of the text are available online for free.  
 * [Learn Python the Hard Way](https://learnpythonthehardway.org/). You can try this one out for free before purchasing.  
+
+The more you learn to program, the more you will realise that Google is your best friend! If you're having a problem, Google it. It's likely that someone has posted the answer already on the many forums available online. 
