@@ -291,7 +291,7 @@ print(shopping)
 print(len(shopping))
 ```
 
-Other data types - Dictionaries, tuple, complex structures
+As well as lists there are other type of more complex variables. [Dictionaries](https://www.tutorialspoint.com/python/python_dictionary.htm) hold paired information where each element has a key (name) and a value. [Tuples](https://www.tutorialspoint.com/python/python_tuples.htm) are similar to lists, but they are immutable, i.e. they can not be changed. Data can also take more complex structures, such as lists of lists or lists of dictionairies.
 
 ### 5. Loops - doing the same thing lots of times
 
