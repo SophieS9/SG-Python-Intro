@@ -196,7 +196,7 @@ You should have noticed that the output above isn't formatted particularly nicel
 fruit = "Apples"
 vegetable = "Potatoes"
 
-shoppinglist = fruit + " " + vegetables
+shoppinglist = fruit + " " + vegetable
 
 print shoppinglist
 ```
@@ -206,7 +206,7 @@ But what about if I wanted to add have each item of my shopping list on a new li
 fruit = "Apples"
 vegetable = "Potatoes"
 
-shoppinglist = fruit + "\n" + vegetables
+shoppinglist = fruit + "\n" + vegetable
 
 print shoppinglist
 ```
