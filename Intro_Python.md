@@ -294,6 +294,41 @@ print(len(shopping))
 As well as lists there are other type of more complex variables. [Dictionaries](https://www.tutorialspoint.com/python/python_dictionary.htm) hold paired information where each element has a key (name) and a value. [Tuples](https://www.tutorialspoint.com/python/python_tuples.htm) are similar to lists, but they are immutable, i.e. they can not be changed. Data can also take more complex structures, such as lists of lists or lists of dictionairies.
 
 ### 5. Loops - doing the same thing lots of times
+There are going to be times when you want to do the same thing repeatedly over and over again. This is where loops can be useful. Loops can be used to do something to all of the elements in a list, all of the lines in a file and so on...
+
+There are several different types of loops. Here we're going to focus on for loops. Here is an example of a simple for loop, open a new script and have a go:
+```
+for i in range(1,10):
+	print(i)
+```
+
+To break down what is happening here, a variable (i) is being declared for every number starting at 1 and ending at (but not including) 10. For each iteration of the loop, i increases by 1 and is then printed. You should also note that the for statment ends in a colon (:) and the action is position four spaces or a tab in. 
+
+By default, for loops incrementally increase by one each time. However this can be changed. For example the following will increase i by 2 at each iteration of the loop, starting at 1 and ending at 10:
+```
+for i in range(1,10,2):
+	print(i)  
+```
+
+Have a go at editing the above example with different start and stop ranges and different increments.
+
+Loops can also be used with variables such as lists. Here range isn't needed, Python knows to loop over every element. Here is an example print every item from the shopping list variable made in the last section:
+```
+shopping=["Apples","Potatoes","Bananas","Biscuits","Strawberries","Gravy", "Lemonade"]
+
+for item in shopping:
+	print(item)
+```
+
+Here is a more complex example where the length of the word (which is being converted to a string) and the first letter of the word in the list is printed.
+```
+shopping=["Apples","Potatoes","Bananas","Biscuits","Strawberries","Gravy", "Lemonade"]
+
+for item in shopping:
+	length = len(item)
+	char = item[0]
+	print("I need " + item + ". This word is " + str(length) + " characters long and begins with " + char)
+```
 
 Conditional Statements
 
