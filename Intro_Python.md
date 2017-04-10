@@ -72,7 +72,7 @@ We're now going to get started with writing our first python script. In this scr
 ```
 text = "Hello World!"
 
-print (text)
+print(text)
 ```
 
 You can then run your script by clicking on the "Run" green arrow in the top bar:
@@ -99,9 +99,9 @@ text = "Hello World!"
 integer = 1
 float = 2.35
 
-print (text)
-print (integer)
-print (float)
+print(text)
+print(integer)
+print(float)
 ```
 
 Here I've introduced two new variable types - integers (whole numbers) and floats (decimal numbers). 
@@ -122,7 +122,7 @@ For this section you can either edit your existing script or open a new one. Typ
 x = 5
 y = 6
 
-print (x + y)
+print(x + y)
 ``` 
 Run the script (you'll need to save it first) and look at the changes in the console. The result of adding 5 and 6 has been printed.
 
@@ -132,7 +132,7 @@ x = 5
 y = 6
 z = x + y
 
-print (z)
+print(z)
 ```
 
 As well as addition, you can do subtraction, multiplication, division, raise a number by a power (**) and obtain the modulo (%) (the remainder when dividing by a number). Have a go at the example. Change the numbers to whatever you like:
@@ -140,12 +140,12 @@ As well as addition, you can do subtraction, multiplication, division, raise a n
 x = 5
 y = 6
 
-print (x + y)
-print (x - y)
-print (x * y)
-print (x / y)
-print (x ** y)
-print (x % y)
+print(x + y)
+print(x - y)
+print(x * y)
+print(x / y)
+print(x ** y)
+print(x % y)
 ```
 
 If you're using Python version 2, you might have noticed something unusual with the results above. When you divide 5/6 the result is printed as 0 when we all know that the result should be 0.833333. This is because division of integers in Python 2 is automatically rounded.
@@ -163,7 +163,7 @@ To be able to perfrom mathematical arithmetic on variables, they need to be of t
 x = 5
 y = "Banana"
 
-print (x + y)
+print(x + y)
 ```
 
 When doing this you should have seen an error that looks like this in the console:
@@ -179,17 +179,17 @@ As well as being great at working with integers, Python also allows us to work w
 ```
 text = "Hello World!"
 
-print (text)
+print(text)
 ```
 
 Python has some built in functions that allow us to work with strings. This includes calculating the length of the string, changing the string to upper case or changing the string to lower case. The syntax (the correct way to write) each function is slightly different. The length function follows the syntax "len(VARIABLE)" whereas the lower and upper functions follow the syntax "VARIABLE.function()". See by running the example below:
 ```
 text = "Hello World!"
 
-print (text)
-print (len(text))
-print (text.upper())
-print (text.lower())
+print(text)
+print(len(text))
+print(text.upper())
+print(text.lower())
 ```
 
 There are other built in functions available as well including a function to capitalize the first letter or to swap the cases of all letter. 
@@ -201,7 +201,7 @@ vegetable = "Potatoes"
 
 shoppinglist = fruit + vegetable
 
-print (shoppinglist)
+print(shoppinglist)
 ```
 
 You should have noticed that the output above isn't formatted particularly nicely. I'd like my shopping list to have spaces in between the items. Therefore I can edit the script as follows, adding a space between the variables:
@@ -211,7 +211,7 @@ vegetable = "Potatoes"
 
 shoppinglist = fruit + " " + vegetable
 
-print (shoppinglist)
+print(shoppinglist)
 ```
 
 But what about if I wanted to add have each item of my shopping list on a new line? Well instead of adding a space, we can add a new line character - "\n". There are a series of special characters in programming that are used to specify different things such as new lines (\n), tabs (\t), spaces (\s) and so on. These are known as escape characters and also start with a back slash. 
@@ -221,7 +221,7 @@ vegetable = "Potatoes"
 
 shoppinglist = fruit + "\n" + vegetable
 
-print (shoppinglist)
+print(shoppinglist)
 ```
 
 Python can also be used to pull out specific characters from a string, using indexing. Every character in a string is given a number, starting from 0 to n-1 where n is the length of the string. Here are the indexes for the string "Hello World!"
@@ -234,18 +234,32 @@ We use the variable name followed by square brackets with the index to be able t
 ```
 text = "Hello World!"
 
-print (text)
-print (text[0])
-print (text[1])
-print (text[2:4])
-print (text[-1])
+print(text)
+print(text[0])
+print(text[1])
+print(text[2:4])
+print(text[-1])
 ```
 
 [2:4] accesses the third character to (but not including) the fifth character. [-1] access the final character in the string. Have a play with different numbers and try combining these options with some of the string functions introduced above, such as length and upper.  
 
 ### 4. Lists - lists of variables
+There will be times where we want to group variables together, for example the shopping list example above would be better to be a single variable that contains a list, which we can easily add and remove items from without having to store each one as an individual variable. This can be done in Python using lists. 
 
-Other data types
+Lists are a number of elements held together in a single variable. These elements can be any type of data, such as a string, integer or float. To declare a list, square brackets are used with each individual element separated by a comma. Open a new script and have a go at the example:
+```
+shopping=["Apples","Potatoes","Bananas","Biscuits"]
+
+print(shopping)
+```
+
+The entire list has been printed to console. You'll also notice that the variable explorer now contains a new variable with the type "list" and size "4":
+<p align=center>
+<img src="./Images/list_variable.png"/>
+</p>
+
+
+Other data types - Dictionaries, tuple, complex structures
 
 ### 5. Loops - doing the same thing lots of times
 
