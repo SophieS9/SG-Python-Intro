@@ -24,15 +24,20 @@ If you're using a Mac or Unix operating system, python is mostly likely already 
 python --version
 ```
 
-If you're using Windows, you'll need to download software that allows you to run python. Today we're going to use [spyder](https://github.com/spyder-ide/spyder) as it has a nice graphical user interface (GUI), similar to RStudio. I would recommend the installation option via Anaconda. Mac and Unix users can also download this software if they'd prefer to use the GUI. 
+If you're using Windows, you'll need to download software that allows you to run python. Today we're going to use [spyder](https://github.com/spyder-ide/spyder) as it has a nice graphical user interface (GUI), similar to RStudio. I would recommend the installation option via Anaconda, and the Python 3.6 version. Mac and Unix users can also download this software if they'd prefer to use the GUI. 
 
-Once installed, launch spyder. On a Windows machine *DO THIS*. If you have installed with Anaconda on a Mac or Unix platform, you can launch spyder from the command line as follows:
+Once installed, launch spyder. On a Windows machine, you should now have Spyder in your available programmes. Click the symbol to launch:
+<p align=center>
+<img src="./Images/spyder_win.png"/>
+</p>
+
+If you have installed with Anaconda on a Mac or Unix platform, you can launch spyder from the command line as follows:
 ```
 spyder&
 ```
 NOTE! The & sign at the end allows spyder to run in the background so you can still use your terminal window for other things. 
 
-A window that looks something like this should have opened:
+A window that looks something like this should have opened (it may appear marginally different depending on your operating system and spyder version):
 
 <img src="./Images/spyder_open.png"/>
 
