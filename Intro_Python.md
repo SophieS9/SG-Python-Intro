@@ -86,9 +86,9 @@ You'll notice that your console has now changed:
 <p align=center>
 <img src="./Images/variable_out.png"/>
 </p>
-The text has been printed in the console. Throughout the tutorial this is going to be the pattern we follow. Edit the script, run in the console, look at what is printed to the console. 
-
-You should also have noticed that the Variable Explorer on the top left hand side has changed. It now contains the variable text and information about the variable type (str = string):
+The text has been printed in the console. Throughout the tutorial this is going to be the pattern we follow. Edit the script, run in the console, look at what is printed to the console.
+ 
+You should also have noticed that the Variable Explorer on the top left hand side has changed. It now contains the variable "text" and information about the variable type (str = string):
 <p align=center>
 <img src="./Images/variable_explorer_2.png"/>
 </p>
@@ -107,6 +107,11 @@ print (float)
 Here I've introduced two new variable types - integers (whole numbers) and floats (decimal numbers). 
 
 Run your script and look at the changes in the console. 
+
+You'll also have noticed that Variable Explorer now contains two more variables, both with different types:
+<p align=center>
+<img src="./Images/variable_explorer_3.png"/>
+</p>
 
 Within your script you can declare as many variables as you like as long as the name is unique. Now we'll take a look at some of the things you can do with these variables.
 
