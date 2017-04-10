@@ -88,7 +88,10 @@ You'll notice that your console has now changed:
 </p>
 The text has been printed in the console. Throughout the tutorial this is going to be the pattern we follow. Edit the script, run in the console, look at what is printed to the console. 
 
-ADD SOMETHING HERE ABOUT VARIABLE EXPLORER
+You should also have noticed that the Variable Explorer on the top left hand side has changed. It now contains the variable text and information about the variable type (str = string):
+<p align=center>
+<img src="./Images/variable_explorer_2.png"/>
+</p>
 
 Now we've made our first variable, go back to your script and edit it as follows:
 ```
