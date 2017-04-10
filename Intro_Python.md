@@ -258,6 +258,38 @@ The entire list has been printed to console. You'll also notice that the variabl
 <img src="./Images/list_variable.png"/>
 </p>
 
+In the same way that we used indexing to isolate certain characters from a string, indexing can be used to isolate certain elements of a list, as follows:
+```
+shopping=["Apples","Potatoes","Bananas","Biscuits"]
+
+print(shopping[0])
+print(shopping[3])
+print(shopping[1:3])
+print(shopping[-1])
+```
+
+There are also functions that can be used specifically with lists. We can print the length of a list (i.e. the number of elements) or we can append a new element, extend the list (joining two lists), sort the list and reverse the order:
+```
+shopping=["Apples","Potatoes","Bananas","Biscuits"]
+print(shopping)
+print(len(shopping))
+
+shopping.append("Strawberries")
+print(shopping)
+print(len(shopping))
+
+shopping.extend(["Gravy","Lemonade"])
+print(shopping)
+print(len(shopping))
+
+shopping.sort()
+print(shopping)
+print(len(shopping))
+
+shopping.reverse()
+print(shopping)
+print(len(shopping))
+```
 
 Other data types - Dictionaries, tuple, complex structures
 
