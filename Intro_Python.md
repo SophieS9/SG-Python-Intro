@@ -28,7 +28,7 @@ If you're using Windows, you'll need to download software that allows you to run
 
 Once installed, launch spyder. On a Windows machine, you should now have Spyder in your available programmes. Click the symbol to launch:
 <p align=center>
-<img src="./Images/spyder_win.png"/ style="width: 100px"/>
+<img src="./Images/spyder_win.png"/ style="width: 50px"/>
 </p>
 
 If you have installed with Anaconda on a Mac or Unix platform, you can launch spyder from the command line as follows:
