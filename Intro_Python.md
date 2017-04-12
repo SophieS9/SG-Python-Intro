@@ -355,8 +355,26 @@ for item in shopping:
 As you start to code more, for loops and conditional statements will become key elements that you often use. 
 
 ### 6. Syntax - tabs, line breaks, comments
+You may have noticed throughout this workshop that my code has a very certain structure. You may also have noticed that if you didn't copy this exactly, your code fails! For loops and conditional statements both need an indented block of text. The colon (:) at the end of the for or if/elif/else line specifies this. All of the actions within that block need to be indented by a tab. If this rule isn't followed you'll get the following error, using a modified version of the last code as an example:
+```
+shopping=["Apples","Potatoes","Bananas","Biscuits","Strawberries","Gravy", "Lemonade"]
 
+for item in shopping:
+        if item[0] == "B":
+                print(item + " begins with B")
+      elif item[0] == "A":
+                print(item + " begins with A")
+        else:
+                print(item + " doesn't begin with B or A")
+```
 
+You should see an error like follows:
+
+<p align=center>
+<img src="./Images/indentation_error.png"/>
+</p>
+
+As well as clear indentation, you'll have noticed that I separate my code into sections using line breaks. This isn't essential, but makes the code easier to read and makes for good practice. 
 
 ## How Can I Continue Learning Python?!
 
