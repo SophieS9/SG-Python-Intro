@@ -330,9 +330,33 @@ for item in shopping:
 	print("I need " + item + ". This word is " + str(length) + " characters long and begins with " + char)
 ```
 
-Conditional Statements
+Python also has the functionality to use conditional statements, where an action is only carried out if that statement is true. These can be incorporated into for loops. The following example only prints items in the shopping list that start with the letter B:
+```
+shopping=["Apples","Potatoes","Bananas","Biscuits","Strawberries","Gravy", "Lemonade"]
+
+for item in shopping:
+	if item[0] == "B":
+		print(item)
+```
+
+Conditional statements can be built up to include else and elif statements, like this:
+```
+shopping=["Apples","Potatoes","Bananas","Biscuits","Strawberries","Gravy", "Lemonade"]
+
+for item in shopping:
+        if item[0] == "B":
+                print(item + " begins with B")
+	elif item[0] == "A":
+		print(item + " begins with A")
+	else:
+		print(item + " doesn't begin with B or A") 
+```
+ 
+As you start to code more, for loops and conditional statements will become key elements that you often use. 
 
 ### 6. Syntax - tabs, line breaks, comments
+
+
 
 ## How Can I Continue Learning Python?!
 
