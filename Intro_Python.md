@@ -376,9 +376,38 @@ You should see an error like follows:
 
 As well as clear indentation, you'll have noticed that I separate my code into sections using line breaks. This isn't essential, but makes the code easier to read and makes for good practice. 
 
+Another good practice in programming is to include comments in your scripts. These comments are not run by python, but simply act as information to the user. This is really helpful for yourself, when you return to a script one year after writing it, you can clearly see what each step is doing. It's also helpful to other people who may use your scripts. There are two types of comments: single line and multi line. Single line comments are short descriptions and will start with a hash (#). Multi line comments are longer statments and are often found at the start of a script. These are encompassed by a set of three speech marks on either end. The example below takes the final code and adds comments:
+```
+"""
+Author: Sophie Shaw
+Script: shopping.py
+This script takes a shopping list and tells us which words begin with a B, which begin with an A, and all other items.
+"""
+
+# This line makes the list variable to hold the shopping list
+shopping=["Apples","Potatoes","Bananas","Biscuits","Strawberries","Gravy", "Lemonade"]
+
+# For loop to iterate over each item in the shopping list
+for item in shopping:
+	# if the shopping list item begins with B, print
+        if item[0] == "B":
+                print(item + " begins with B")
+	# if the shopping list items begins with A, print
+	elif item[0] == "A":
+                print(item + " begins with A")
+        # for all other elements, print and state they don't start with A and B
+	else:
+                print(item + " doesn't begin with B or A")
+```
+
+Whereever possible, you should add clear comments to your code.
+
+### 7. Conclusion
+That concludes this brief introduction to programming with Python. You've learnt about what a variable is, how to declare this and the different types of variables. You've seen how Python can be used for arithmetic. You've seen how Python can work with strings. You've seen more complex variables types such as lists. And you've seen how for loops and conditional statements can be used to iterate over lists and strings. Finally, you've learnt about correct syntax and good practices when coding.
+ 
 ## How Can I Continue Learning Python?!
 
-There are some great free online resources available to help you learn Python (and many other languages). Two of my favourites are:
+This is just a starter and there is a lot more that Python can do! There are lots of way that you can continue to learn Python. There are some great free online resources available to help you learn Python (and many other languages). Two of my favourites are:
 
 * [Codecademy](https://www.codecademy.com/learn/python). This has a Python tutorial as well as tutorials in other languages with a focus upon website design. There are free accounts or paid-for accounts with added functionality. 
 * [HackerRank](https://www.hackerrank.com/). This has tutorials in many different languages as well as coding competitions. It's used by companies to head hunt the best new developers.
