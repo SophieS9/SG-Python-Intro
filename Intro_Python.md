@@ -36,7 +36,7 @@ If you have installed with Anaconda on a Mac or Unix platform, you can launch Sp
 ```
 spyder&
 ```
-NOTE! The & sign at the end allows spyder to run in the background so you can still use your terminal window for other things. 
+N.B. The & sign at the end allows spyder to run in the background so you can still use your terminal window for other things. 
 
 A window that looks something like this should have opened (it may appear marginally different depending on your operating system and Spyder version):
 
@@ -47,7 +47,7 @@ A window that looks something like this should have opened (it may appear margin
     <p align=center>
     <img src="./Images/variable_explorer.png"/>
     </p>		
-* The bottom right hand side is the Console. This is where yout script will run. There are three tabs to this window, two console types (Console and IPython Console) and the history tab. We're going to want to have the Console tab open. It should look like this:
+* The bottom right hand side is the Console. This is where your script will run. There are three tabs to this window, two console types (Console and IPython Console) and the history tab. We're going to want to have the Console tab open. It should look like this:
     <p align=center>
     <img src="./Images/console.png"/>
     </p>
@@ -158,7 +158,7 @@ from __future__ import division
 ``` 
 This imports the "division" function from the future module which corrects division to "floating point" in Python 2. This is automatically implemented in Python 3. 
 
-NOTE! Python (and other programming languages) have limitions when using arithmetic functions on floating point (decimal) numbers. This is because of the way numbers are stored in binary which means that they are always just the closest estimation to the floating point. This post [HERE](https://docs.python.org/3/tutorial/floatingpoint.html) explains this a lot better although it does talk about binary! It's nothing to worry about today but it's something that you should be aware of. 
+N.B. Python (and other programming languages) have limitions when using arithmetic functions on floating point (decimal) numbers. This is because of the way numbers are stored in binary which means that they are always just the closest estimation to the floating point. This post [HERE](https://docs.python.org/3/tutorial/floatingpoint.html) explains this a lot better although it does talk about binary! It's nothing to worry about today but it's something that you should be aware of. 
 
 To be able to perfrom mathematical arithmetic on variables, they need to be of the same type. For instance, you can't add an integer and a string:
 ```
@@ -196,7 +196,7 @@ print(text.lower())
 
 There are other built in functions available including a function to capitalize the first letter or to swap the cases of all letters. 
 
-As well as manuipulating strings, Python can be used to concatenate strings together, like in this example:
+As well as manuipulating strings, Python can be used to concatenate (join) strings together, like in this example:
 ```
 fruit = "Apples"
 vegetable = "Potatoes"
@@ -216,7 +216,7 @@ shoppinglist = fruit + " " + vegetable
 print(shoppinglist)
 ```
 
-But what about if I wanted to add have each item of my shopping list on a new line? Well instead of adding a space, we can add a new line character - "\n". There are a series of special characters in programming that are used to specify different things such as new lines (\n), tabs (\t), spaces (\s) and so on. These are known as escape characters and also start with a back slash. 
+But what about if I wanted to have each item of my shopping list on a new line? Well instead of adding a space, we can add a new line character - "\n". There are a series of special characters in programming that are used to specify different things such as new lines (\n), tabs (\t), spaces (\s) and so on. These are known as escape characters and also start with a back slash. 
 ```
 fruit = "Apples"
 vegetable = "Potatoes"
